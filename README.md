@@ -3,15 +3,13 @@
 Welcome to **Meeting Recording Summarization**, an AWS-based data pipeline that automates the process of taking minutes from meetings by converting video files into summarized text.
 
 ---
-
 ## 🚀 Project Overview
 This project simplifies the burden of manual note-taking by leveraging cloud technologies to process meeting videos. It's ideal for busy teams that want accurate and concise summaries of their discussions.
 
 ---
 
 ## 🧩 Architecture Overview
-```mermaid
-graph LR
+```
 A[Video Upload to S3] --> B[AWS Lambda Trigger]
 B --> C[Audio Extraction]
 C --> D[AWS Transcribe - Speech-to-Text]
